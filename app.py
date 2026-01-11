@@ -22,7 +22,7 @@ if uploaded_file is not None:
     st.success(f"✅ Загружено {len(forecast_dataset):,} записей")
     
     # 2. Координаты городов
-    coords_df = pd.read_csv('https://github.com/AleksNot007/Weather_cheker/blob/main/city_coordinates.csv')
+    coords_df = pd.read_csv('https://raw.githubusercontent.com/AleksNot007/Weather_cheker/main/city_coordinates.csv')
     selected_city_ru = st.selectbox("Выберите город", coords_df['ru'].tolist())
     selected_city_en = coords_df[coords_df['ru'] == selected_city_ru]['Город (EN)'].iloc[0]
     
