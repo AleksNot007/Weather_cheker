@@ -1,12 +1,4 @@
-streamlit==1.38.0       # Главный
-pandas==2.2.2           # Таблицы
-plotly==5.22.0          # px/go графики  
-requests==2.32.3        # API
-numpy==1.26.4           # pandas зависит
-python-dateutil==2.9.0  # Даты
-pytz==2024.2            # Часовые пояса
-tzdata==2024.1          # База зон
-certifi==2024.8.30      # SSL сертификаты
-charset-normalizer==3.3.2  # HTTP encoding
-idna==3.10              # URL encoding
-urllib3==2.2.2          # HTTP клиент
+streamlit
+pandas
+plotly
+requests
